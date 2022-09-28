@@ -467,6 +467,12 @@ section#produk-terlaris .container .row img{
     margin-right: auto;
 }
 
+section#produk-terlaris .desc-produk-terlaris .container-spec-produk{
+  margin: auto;
+  left: 0;
+  width: 42.5%;
+}
+
 section#produk-terlaris .container .row .desc-produk-terlaris .nama-produk-terlaris{
     font-size: 32px;
     font-weight: 600;
@@ -480,13 +486,16 @@ section#produk-terlaris .container .row .desc-produk-terlaris .harga-produk-terl
     color: #1AA37A;
     letter-spacing: 0.065em;
     margin-bottom: 20px;
+
 }
 
+
+
 section#produk-terlaris .container .row .desc-produk-terlaris .spesifikasi{
-    padding-left: 0;
     font-size: 16px;
     letter-spacing: 0.065em;
     margin-bottom: 20px;
+
 }
 
 section#produk-terlaris .container .row .desc-produk-terlaris .spesifikasi p{
@@ -522,6 +531,10 @@ section#produk-terlaris .container .row .desc-produk-terlaris .btn-pesan-whatsap
     padding: 18px 18px;
     background: #1AA37A;
     color: #ffffff;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section#produk-terlaris .container .row .desc-produk-terlaris .btn-pesan-whatsapp img{
