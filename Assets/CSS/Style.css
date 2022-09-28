@@ -407,7 +407,7 @@
     margin-top: 48px;
   }
   
-
+  /* HALAMAN CONTACT US */
   section#contact{
     margin-top:  12rem; 
   }
@@ -442,10 +442,19 @@
     height: 78px;
 }
 
+
+
+/* HALAMAN PRODUK */
+
+section#banner-slide{
+  padding-top: 8.5rem;
+  height: 450px;
+}
+
 section#produk-terlaris{
     background: #D0FADD;
     font-family: 'Poppins', sans-serif;
-    padding: 8.5rem;
+    padding-top: 48px;
 }
 
 section#produk-terlaris .container{
@@ -527,11 +536,24 @@ section#produk-terlaris .container .row .desc-produk-terlaris .jumlah{
 }
 
 section#produk-terlaris .container .row .desc-produk-terlaris .btn-pesan-whatsapp{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
-    padding: 18px 18px;
-    background: #1AA37A;
-    color: #ffffff;
+    line-height: 24px;
+    /* identical to box height */
+    
+    letter-spacing: 0.065em;
+    
+    color: #FFFFFF;  
 
+    width: 552px;
+    height: 60px;
+    
+    background: #1AA37A;
+    border: 2px solid #1AA37A;
+    
+    border-radius: 12px;
     display: block;
     margin-left: auto;
     margin-right: auto;
