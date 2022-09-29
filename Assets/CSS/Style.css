@@ -321,7 +321,7 @@
   .sec-preview-product {
     margin-top: 86px;
     background-color: #1aa37a;
-    padding: 40px 0;
+    padding: 40px 0 130px 0;
   }
   
   .title {
@@ -436,6 +436,91 @@
 
   section#contact .card .container-card{
     margin: 24px 108px 24px 108px;
+  }
+
+  section#contact .card .container-card a{
+    text-decoration: none;
+    text-shadow: none;
+    text-decoration-line: none;
+    text-decoration-style: none;
+    text-decoration-color: unset;
+
+  }
+
+  section#contact .card .container-card a img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section#contact .card .container-card a p{
+    margin-top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: 0.065em;
+    
+    color: #616161;
+
+  }
+
+  section#contact .card .container-card a h1{
+    text-align: center;
+    margin-top: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    
+    letter-spacing: 0.065em;
+    
+    color: #1AA37A;
+  }
+
+  section#contact .card .container-card a h2{
+    margin-top: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    
+    letter-spacing: 0.065em;
+    
+    color: #1AA37A;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+  }
+
+  section#location{
+    margin-top: 100px;
+  }
+
+  section#location h1{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.065em;
+
+    color: #000000;
+  }
+
+  section#location .container-maps{
+    margin-top: 40px;
+    height: 300px;
   }
 
   section#header{
