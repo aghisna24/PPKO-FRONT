@@ -406,6 +406,51 @@
     gap: 28px;
     margin-top: 48px;
   }
+
+  section#galery{
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  section#galery h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.065em;
+
+    color: #000000;
+    text-align: center;
+    padding-top: 114px;
+    padding-bottom: 60px;
+  }
+
+  section#galery .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  section#galery .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 617px;
+    height: 369px;
+  }
+
+  section#galery .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  section#galery .layout{
+    padding-bottom: 102px;
+  }
   
   /* HALAMAN CONTACT US */
   section#contact{
