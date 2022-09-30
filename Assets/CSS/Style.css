@@ -989,6 +989,515 @@ section#produk-kami .card-teh-herbal .btn-buy a h2{
   color: #FFFFFF;
 }
 
+/* Tentang Kami */
+section#header-about {
+  margin-top: 200px;
+}
+
+section#header-about .text-main-banner h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* or 125% */
+
+  letter-spacing: 0.065em;
+
+  color: #000000;
+  margin-bottom: 28px;
+}
+
+section#header-about .text-main-banner p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  text-align: center;
+  letter-spacing: 0.065em;
+
+  color: #616161;
+  width: 80%;
+  margin: auto;
+}
+
+section#header-about .container .sec-header {
+  height: 612px;
+  background-image: url("../Images/bg-about.png");
+  border-radius: 40px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+section#data {
+  margin-top: 100px;
+}
+
+section#data .container .row .text-lg-data h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 116px;
+  letter-spacing: 0.065em;
+
+  color: #04474e;
+  margin-bottom: 16px;
+}
+
+section#data .container .row .text-lg-data p,
+section#data .container .row .text-md-data .card-md-data p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  letter-spacing: 0.065em;
+
+  color: #616161;
+  margin-bottom: 32px;
+}
+
+section#data .container .row .text-lg-data h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  letter-spacing: 0.065em;
+
+  color: #1aa37a;
+}
+
+section#data .container .row .text-md-data .card-md-data h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+
+  letter-spacing: 0.065em;
+
+  color: #04474e;
+}
+
+section#data .container .row .text-md-data .card-md-data {
+  padding: 24px;
+  background-color: #fff;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  margin-bottom: 32px;
+}
+
+section#stakeholder {
+  margin-top: 100px;
+}
+
+section#stakeholder .container h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height */
+
+  letter-spacing: 0.065em;
+
+  color: #000000;
+}
+
+section#stakeholder .container .card-stakeholder {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+section#stakeholder .container .card-stakeholder h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  letter-spacing: 0.065em;
+
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+section#stakeholder .container .card-stakeholder p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  letter-spacing: 0.065em;
+
+  color: #616161;
+}
+
+section#benefit .container-benefit {
+  background-color: #fff9cc;
+  padding-top: 60px;
+}
+
+section#benefit .container-benefit h1 {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height */
+
+  letter-spacing: 0.065em;
+
+  color: #000000;
+  margin-bottom: 48px;
+}
+
+section#benefit {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Detail Product */
+section#detail-product {
+  margin-top: 200px;
+}
+
+section#detail-product .img-product-detail {
+  width: 100%;
+  height: 100%;
+}
+
+section#detail-product .sec-desc-product-detail h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height */
+
+  letter-spacing: 0.065em;
+
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+section#detail-product .sec-desc-product-detail .price {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height */
+
+  letter-spacing: 0.065em;
+
+  color: #1aa37a;
+  margin-bottom: 20px;
+}
+
+section#detail-product .sec-desc-product-detail .price-normal {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  letter-spacing: 0.065em;
+  text-decoration-line: line-through;
+
+  color: #616161;
+}
+
+section#detail-product .sec-desc-product-detail .discount {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 4px;
+
+  background: #d6283a;
+  border-radius: 8px;
+}
+
+section#detail-product .sec-desc-product-detail .discount .text-disc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.065em;
+
+  color: #ffffff;
+}
+
+section#detail-product .sec-desc-product-detail .seller {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+section#detail-product .sec-desc-product-detail .seller img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+section#detail-product .sec-desc-product-detail .seller p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  letter-spacing: 0.065em;
+
+  color: #616161;
+}
+
+section#detail-product .sec-desc-product-detail .btn-pesan-whatsapp {
+  font-size: 16px;
+  padding: 14px 18px;
+  background: #1aa37a;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 12px;
+
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  letter-spacing: 0.065em;
+
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+section#detail-product .sec-desc-product-detail .btn-share {
+  text-decoration: none;
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  letter-spacing: -0.01em;
+
+  color: #212121;
+}
+
+section#sec-desc-product .container h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.065em;
+
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+section#sec-desc-product .container .desc-product .data-desc-product {
+  margin-bottom: 20px;
+}
+
+section#sec-desc-product .container .desc-product .data-desc-product p {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  letter-spacing: 0.065em;
+
+  color: #616161;
+}
+
+section#sec-desc-product .container .desc-product .data-desc-product p span {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  letter-spacing: 0.065em;
+
+  color: #1aa37a;
+}
+
+section#sec-desc-product .container .description-product p {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  letter-spacing: 0.065em;
+
+  color: #616161;
+}
+
+section#similar-product{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+section#similar-product .container .teh-herbal .name-header p{
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0.065em;
+}
+
+section#similar-product .card-teh-herbal{
+width: 380px;
+background: #ffffff;
+filter: drop-shadow(0px 8px 40px rgba(0, 0, 0, 0.1));
+border-radius: 16px;
+padding: 24px;
+}
+
+section#similar-product .card-teh-herbal .img-product{
+width: 332px;
+height: 280px;
+background: #D0FADD;
+border-radius: 12px;
+}
+
+section#similar-product .card-teh-herbal .img-product img{
+height: 211px;
+width: 202px;
+object-fit:cover;
+margin-top: 34px;
+margin-left: 65px;
+}
+
+section#similar-product .card-teh-herbal .container-card{
+margin: 25px 12px 28px 12px;
+}
+
+section#similar-product .card-teh-herbal .container-card h1{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 125% */
+
+letter-spacing: 0.065em;
+
+color: #000000;
+text-align: start;
+margin-bottom: 20px;
+}
+
+section#similar-product .card-teh-herbal .container-card p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+letter-spacing: 0.065em;
+
+color: #1AA37A;
+margin-bottom: 16px;
+}
+
+section#similar-product .card-teh-herbal .container-card .text-seller-card{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+letter-spacing: 0.065em;
+
+color: #000000;
+margin-bottom: 16px;
+}
+
+section#similar-product .card-teh-herbal .container-card .text-seller-card span img{
+width: 36px;
+height: 36px;
+object-fit: cover;
+margin-right: 8px;
+border-radius: 50%;
+}
+
+section#similar-product .card-teh-herbal .button-pos{
+margin-top: -23px;
+position: absolute;
+display: flex;
+justify-content: end;
+}
+
+section#similar-product .card-teh-herbal .btn-buy{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+width: 202px;
+height: 58px;
+
+background: #1AA37A;
+border-radius: 16px 0px;
+}
+
+section#similar-product .card-teh-herbal .btn-buy   a{
+text-decoration-line: none;
+}
+
+section#similar-product .card-teh-herbal .btn-buy a h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+letter-spacing: 0.065em;
+
+color: #FFFFFF;
+}
+
 
 
 /* RESPONSIVE */
