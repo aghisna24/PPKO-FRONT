@@ -1,0 +1,92 @@
+:root {
+    --abuabu: #f2f2f2;
+    --body-color: #fff;
+    --blue: #B5DEFF;
+    --white: #fff;
+    --grey: #f5f5f5;
+    --black1: #222;
+    --black2: #383E56;
+    --cream: #DFD8CA;
+    --tulisan: #000;
+    --card: #fff;
+    --hovered: #5fb4fa;
+    --hovered2: #fff;
+    --hovered3: #5fb4fa;
+    --primary: #4edbaf;
+    --primaryhover: #3ab890;
+    --warning: #d4637f;
+    --warninghover: #cf5a78;
+    --bluehover: #87acca;
+    --submenu: #dff0ff;
+    --submenuhover: #b9d1e6;
+    --tulisan-putih: rgb(255, 255, 255);
+    --bennerlab: url(../assets/img/bannerlablight.png);
+    --bennerad: url(../assets/img/benneradmin.png);
+    --bennerrsp: url(../assets/img/bennerresepsio.png);
+    --bennerkia: url(../assets/img/benneribuanak.png);
+    --bennerpg: url(../assets/img/bennerpoliGIGI.png);
+    --bennerumm: url(../assets/img/bennerpoli.png);
+    --bennerfar: url(../assets/img/bannerfarmasi.png);
+    --clock: url(../assets/img/clock.png);
+    --card: #ffffff;
+    --angka: #548CFF;
+    --jam: #000;
+    --submitbtn: linear-gradient(135deg, #4ac29a, #bdfff3);
+    --pointercaret : #7FB5FF;
+    --loaderbackground: rgba(255, 255, 255, 0.95);
+    --jamdigital : #6E85B7;
+    --border: #adadad;
+
+    /* Transition */
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+}
+
+body {
+    
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: var(--body-color);
+    transition: var(--tran-04);
+}
+
+body.dark {
+    --abuabu: #2c395b;
+    --body-color: #041c32;
+    --blue: #3a5177;
+    --bluehover: #2b4063;
+    /* #FBF3E4 */
+    --white: #fff;
+    --grey: #f5f5f5;
+    --black1: #222;
+    --black2: #383E56;
+    --cream: #DFD8CA;
+    --tulisan: #fff;
+    --card: #34426a;
+    --hovered: #03506F;
+    --primary: #B5Deef;
+    --primaryhover: #5fb4f4;
+    --hovered2: #98f974;
+    --hovered3: #3ff974;
+    --submenu: #4d6791;
+    --tulisan-putih: rgb(0, 0, 0);
+    --submenuhover: #425b81;
+    --bennerlab: url(..//assets/img/bannerlabdark.png);
+    --bennerad: url(../assets/img/benneradmindark.png);
+    --bennerrsp: url(../assets/img/bennerresepsiodark.png);
+    --bennerkia: url(../assets/img/benneribuanakdark.png);
+    --bennerpg: url(../assets/img/bennerpoliGIGIdark.png);
+    --bennerumm: url(../assets/img/bennerpolidark.png);
+    --bennerfar: url(../assets/img/bannerfarmasidark.png);
+    --clock: url(../assets/img/clock\ 1.png);
+    --card: #22334e;
+    --angka: #98f974;
+    --jam: #fff;
+    --submitbtn: linear-gradient(135deg, #159957, #155799);
+    --pointercaret : #83BD75;
+    --loaderbackground: rgba(0, 0, 0, 0.94);
+    --jamdigital : #fff;
+    --border: #B5DEFF;
+}

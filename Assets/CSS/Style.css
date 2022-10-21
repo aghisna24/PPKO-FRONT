@@ -34,6 +34,7 @@
 
   body{
     overflow-x:hidden;
+    z-index: -2;
     /* overflow: hidden; */
   }
 
@@ -1385,30 +1386,22 @@ section#similar-product .container .teh-herbal .name-header p{
 }
 
 section#similar-product .card-teh-herbal{
-width: 380px;
+padding: 24px 24px 0 24px;
 background: #ffffff;
 filter: drop-shadow(0px 8px 40px rgba(0, 0, 0, 0.1));
 border-radius: 16px;
-padding: 24px;
+/* width: 80%; */
 }
 
-section#similar-product .card-teh-herbal .img-product{
-width: 332px;
+section#similar-product .card-teh-herbal img{
+width: 100%;
 height: 280px;
-background: #D0FADD;
-border-radius: 12px;
-}
-
-section#similar-product .card-teh-herbal .img-product img{
-height: 211px;
-width: 202px;
 object-fit:cover;
-margin-top: 34px;
-margin-left: 65px;
+border-radius: 12%;
 }
 
 section#similar-product .card-teh-herbal .container-card{
-margin: 25px 12px 28px 12px;
+margin-top: 25px;
 }
 
 section#similar-product .card-teh-herbal .container-card h1{
@@ -1464,7 +1457,7 @@ border-radius: 50%;
 
 section#similar-product .card-teh-herbal .button-pos{
 margin-top: -23px;
-position: absolute;
+margin-right: -24px;
 display: flex;
 justify-content: end;
 }
@@ -1501,6 +1494,40 @@ color: #FFFFFF;
 
 
 /* RESPONSIVE */
-@media (max-width:0px ){
+@media (max-width:1200px ){
+  /* section#similar-product .card-teh-herbal{
+    width: 348px;
+    }
 
+  section#similar-product .card-teh-herbal .img-product{
+    width: 300px;
+    height: 248px;
+    }
+      
+  section#similar-product .card-teh-herbal .img-product img{
+    height: 211px;
+    width: 202px;
+    margin-top: 18px;
+    margin-left: 48px;
+    } */
+    
+}
+
+@media (max-width:1024px ){
+  /* section#similar-product .card-teh-herbal{
+    width: 348px;
+    }
+
+  section#similar-product .card-teh-herbal .img-product{
+    width: 300px;
+    height: 248px;
+    }
+      
+  section#similar-product .card-teh-herbal .img-product img{
+    height: 211px;
+    width: 202px;
+    margin-top: 18px;
+    margin-left: 48px;
+    }
+     */
 }
