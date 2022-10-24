@@ -759,7 +759,6 @@ section#produk-terlaris .container .row .desc-produk-terlaris .btn-pesan-whatsap
 
 section#produk-kami{
     font-family: 'Poppins', sans-serif;
-    padding: 100px;
 }
 
 section#produk-kami .row .name-header p{
@@ -893,6 +892,7 @@ section#produk-kami .card-teh-herbal{
   background: #ffffff;
   filter: drop-shadow(0px 8px 40px rgba(0, 0, 0, 0.1));
   border-radius: 16px;
+  margin-bottom: 18px;
   /* width: 80%; */
   }
   
@@ -970,8 +970,6 @@ section#produk-kami .card-teh-herbal{
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  width: 202px;
-  height: 58px;
   
   background: #1AA37A;
   border-radius: 16px 0px;
@@ -1031,7 +1029,7 @@ section#header-about .text-main-banner p {
 
 section#header-about .container .sec-header {
   height: 612px;
-  background-image: url("../Images/bg-about.png");
+  background-image: url(../Images/Banner-about-us.png);
   border-radius: 40px;
   width: 100%;
   background-repeat: no-repeat;
@@ -1133,12 +1131,20 @@ section#stakeholder .container .card-stakeholder {
   gap: 32px;
 }
 
+section#stakeholder .container .card-stakeholder .stake-image img{
+  height: 260px;
+  width: 100%;
+  margin-top: 18px;
+  object-fit: cover;
+}
+
 section#stakeholder .container .card-stakeholder h2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 39px;
+  max-width: 313px;
   /* identical to box height */
 
   letter-spacing: 0.065em;
@@ -1153,6 +1159,7 @@ section#stakeholder .container .card-stakeholder p {
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
+  max-width: 313px;
   /* or 156% */
 
   letter-spacing: 0.065em;
@@ -1394,6 +1401,7 @@ padding: 24px 24px 0 24px;
 background: #ffffff;
 filter: drop-shadow(0px 8px 40px rgba(0, 0, 0, 0.1));
 border-radius: 16px;
+margin-bottom: 18px;
 /* width: 80%; */
 }
 
@@ -1512,6 +1520,16 @@ color: #FFFFFF;
     width: 800px;
     height: 450px;
   }
+
+  section#data .container .row .text-md-data .card-md-data h1 {
+    font-size: 44px;
+  }
+
+  section#data .container .row .text-lg-data h1 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 116px;
+  }
 } 
 
 @media (max-width:768px){
@@ -1524,7 +1542,7 @@ color: #FFFFFF;
 @media (max-width:480px){
   section#banner-slide .slider-container .carousel .carousel-item img{
     width: 350px;
-    height: 350px;
+    height: 3 50px;
   }
   section#produk-terlaris .desc-produk-terlaris .container-spec-produk{
     margin: auto;
